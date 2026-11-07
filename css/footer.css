@@ -3,16 +3,18 @@
   padding: 100px 0;
 }
 
-.container {
+.footer-container {
+  display: flex;
+  align-items: flex-start;
 }
 
 .footer-container {
   display: flex;
   align-items: flex-start;
-  gap: 120px;
 }
 
 .footer-info {
+  margin-right: 120px;
 }
 
 .logo-footer {
@@ -73,4 +75,12 @@
   width: 24px;
   height: 24px;
   color: #f4f4fd;
+}
+
+.footer .icon-box {
+  display: flex;
+  justify-content: flex-start;
+  gap: 16px;
+  margin-top: 8px;
+  justify-content: flex-start;
 }

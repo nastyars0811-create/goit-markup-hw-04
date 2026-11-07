@@ -15,7 +15,6 @@
 .team-list {
   display: flex;
   gap: 24px;
-
   list-style: none;
   padding: 0;
   margin: 0;
@@ -72,4 +71,18 @@
   width: 16px;
   height: 16px;
   color: #f4f4fd;
+}
+
+.icon-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  list-style: none;
+  padding: 0;
+  margin: 8px 0 0;
+}
+
+.icon-item {
+  width: 40px;
+  height: 40px;
 }
