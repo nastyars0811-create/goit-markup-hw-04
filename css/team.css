@@ -34,6 +34,7 @@
 }
 
 .team-pict {
+  display: block;
   width: 100%;
 }
 
@@ -60,4 +61,15 @@
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
+}
+
+.team .icon-link:hover,
+.team .icon-link:focus {
+  background-color: #404bbf;
+}
+
+.team-icon {
+  width: 16px;
+  height: 16px;
+  color: #f4f4fd;
 }

@@ -1,6 +1,18 @@
 .footer {
   background: #2e2f42;
-  padding: 100px 141px;
+  padding: 100px 0;
+}
+
+.container {
+}
+
+.footer-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 120px;
+}
+
+.footer-info {
 }
 
 .logo-footer {
@@ -30,5 +42,35 @@
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: #f4f4fd;
+  margin: 0;
+}
+
+.footer-social {
+}
+
+.footer-title {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+  margin: 0 0 16px;
+}
+
+.footer .icon-link {
+  background-color: #4d5ae5;
+  transition: background-color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer .icon-link:hover,
+.footer .icon-link:focus {
+  background-color: #31d0aa;
+}
+
+.footer-icon {
+  width: 24px;
+  height: 24px;
   color: #f4f4fd;
 }
